@@ -1,26 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Мой сайт освещения</title>
     <meta charset="UTF-8">
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-        }
-        .product {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin: 10px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Империя Света | Освещение и теплые полы</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Добро пожаловать в магазин освещения!</h1>
-    <div class="product">
-        <h2>Люстра Crystal</h2>
-        <img src="https://via.placeholder.com/200x200" alt="Люстра">
-        <p>Цена: 5000 руб.</p>
-    </div>
+    <!-- Шапка -->
+    <header class="header">
+        <div class="logo">
+            <h1>Империя Света</h1>
+        </div>
+        <nav class="navbar">
+            <a href="#home">Главная</a>
+            <a href="#catalog">Каталог</a>
+            <a href="#cart">Корзина</a>
+            <a href="#about">О нас</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Эксклюзивные решения для вашего дома</h2>
+            <p>Люстры, теплые полы, умное освещение</p>
+        </div>
+    </section>
+
+    <!-- Каталог -->
+    <section id="catalog" class="products">
+        <h2>Популярные товары</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/products/империя.jpg" alt="Люстра">
+                <h3>Хрустальная люстра</h3>
+                <p class="price">25 000 ₽</p>
+                <button>В корзину</button>
+            </div>
+            <!-- Добавьте больше товаров -->
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <p>© 2024 Империя Света. Лицензия MIT.</p>
+    </footer>
 </body>
 </html>
